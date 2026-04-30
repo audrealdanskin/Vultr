@@ -20,3 +20,7 @@ resource "vultr_instance" "my_instance" {
     region = "ord"
     os_id = 1743
 }
+resource "vultr_vpc" "my_vpc" {
+    description = "my vpc"
+    region = "ord"
+}
